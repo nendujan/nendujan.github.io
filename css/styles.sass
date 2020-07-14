@@ -1,5 +1,10 @@
 html
     font-family: 'Roboto', sans-serif
+    width: 100%
+    height: 100%
+    margin: 0px
+    padding: 0px
+    overflow-x: hidden 
     
 .container
     width: 80vw
@@ -7,6 +12,7 @@ html
     background-color: transparent
 
     .header-container
+        width: 80vw
         padding-top: 2rem
         display: flex
         justify-content: space-between
@@ -19,11 +25,11 @@ html
             color: black
             padding-top: 1.4rem
 
-            p
-                display: inline-block
-                opacity: 20%
-                padding-left: 1rem
-                font-weight: 400
+        @media screen and (max-width: 768px)
+            a.logo
+                font-size: 1rem
+                color: black
+
         ul 
             list-style-type: none
             margin-top: 1.85rem
@@ -44,8 +50,29 @@ html
                 a:hover
                     opacity: 100%
 
+            @media screen and ( max-width: 768px )
+                li
+                    padding-left: 0.3rem
+                    font-size: 1rem
+                    font-weight: 400
+        
+        @media screen and ( max-width: 768px )
+            ul
+                margin-top: 1.4rem
+
+    @media screen and ( max-width: 768px )
+        .header-container   
+            width: 90vw
+            padding: 0
+
+@media screen and ( max-width: 768px )
+    .container
+        width: 90vw
+    
+
 .container
     position: relative
+    margin: 0 auto
 
     .blurb
         width: 50vw
@@ -53,7 +80,59 @@ html
         padding-bottom: 10rem
         
         h1
-            font-size: 5rem
+            font-size: 5rem      
+
+            mark
+                background-color: #3297FD
+                color: white
+            
+            .blinking-cursor   
+                -webkit-animation: 1s blink step-end infinite
+                -moz-animation: 1s blink step-end infinite
+                -ms-animation: 1s blink step-end infinite
+                -o-animation: 1s blink step-end infinite
+                animation: 1s blink step-end infinite
+
+            @-webkit-keyframes "blink"
+                from, to
+                    color: transparent
+                50%
+                    color: black
+            
+            @-moz-keyframes "blink"
+                from, to
+                    color: transparent
+                50%
+                    color: black
+
+            @-ms-keyframes "blink"
+                from, to
+                    color: transparent
+                50%
+                    color: black
+
+            @-o-keyframes "blink"
+                from, to
+                    color: transparent
+                50%
+                    color: black
+
+            @keyframes "blink"
+                from, to
+                    color: transparent
+                50%
+                    color: black
+
+        @media screen and ( max-width: 768px )
+            h1
+                font-size: 2rem
+
+    @media screen and ( max-width: 768px )
+        .blurb 
+            width: 80vw
+            padding-top: 2rem
+            padding-bottom: 2rem
+                    
 
     .project-container
         position: relative
@@ -65,8 +144,8 @@ html
             position: absolute
             font-weight: 600
             font-size: 1.5rem
-            bottom: 3rem 
-            right: 5.5rem
+            bottom: 1rem 
+            right: 4rem
             color: white
 
             p   
@@ -76,10 +155,25 @@ html
                 opacity: 50%
                 font-weight: 400
 
+            @media screen and ( max-width: 768px )
+                p
+                    padding-left: 1rem
+
+        @media screen and ( max-width: 768px )
+            h2
+                font-size: 0.8rem
+                bottom: 0rem
+                right: 1rem
+
         img
             width: 100%
             border-radius: 20px
             transition: 1s
+
+        @media screen and ( max-width: 768px )
+            img
+                border-radius: 10px
+                transition: none
 
     .overlay
         position: absolute
@@ -94,28 +188,39 @@ html
         opacity: 0
         transition: 0.5s ease
 
+    @media screen and ( max-width: 768px )
+        .overlay   
+            display: none
+
     .project-container:hover .overlay
         opacity: 70%
 
+    @media screen and ( max-width: 768px )
+        .project-container
+            margin-top: 0.5rem
+            width: 90vw
+
 footer
+
     .container
+
         .footer-container
             margin-top: 5rem   
-            margin-bottom: 5rem
-            position: relative
+            margin-bottom: 3rem
             display: flex
             justify-content: space-between
 
             p
                 font-weight: 600
                 margin: 0
+                padding-bottom: 3rem
 
             ul
                 list-style-type: none
                 margin: 0
+                display: flex
 
                 li
-                    display: inline-block
                     padding-left: 2rem
 
                     a
@@ -127,9 +232,27 @@ footer
 
                     a:hover
                         opacity: 100%
+
+                @media screen and ( max-width: 768px )
+                    font-size: 16px
+                    padding-left: 0
+
+            @media screen and ( max-width: 768px )
+                ul
+                    display: none
+
+                p
+                    margin-bottom: 3rem
+                    padding-bottom: 0
                     
 
+        @media screen and ( max-width: 768px )
+            .footer-container
+                margin-top: 1rem
+                padding-top: 1rem
+                justify-content: center
 
+              
 
             
 
