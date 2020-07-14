@@ -17,6 +17,52 @@
 		"oAP": "/.gitattributes",
 		"oF": 0
 		},
+	"/css/footer.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/footer-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/footer.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/footer.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/css/header.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/header-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/header.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/header.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/css/normalize-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -59,6 +105,14 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
+		},
+	"/header-test.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/header-test.html",
+		"oF": 0
 		},
 	"/images/1.png": {
 		"ft": 32768,
