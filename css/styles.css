@@ -67,9 +67,9 @@ html {
 .container .project-container h2 {
   position: absolute;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.5rem;
   bottom: 3rem;
-  right: 4rem;
+  right: 5.5rem;
   color: white;
 }
 .container .project-container h2 p {
