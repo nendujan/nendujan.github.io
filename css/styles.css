@@ -1,0 +1,132 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+  background-color: transparent;
+}
+.container .header-container {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.container .header-container a.logo {
+  font-family: sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: black;
+  padding-top: 1.4rem;
+}
+.container .header-container a.logo p {
+  display: inline-block;
+  opacity: 20%;
+  padding-left: 1rem;
+  font-weight: 400;
+}
+.container .header-container ul {
+  list-style-type: none;
+  margin-top: 1.85rem;
+  margin-bottom: 0;
+}
+.container .header-container ul li {
+  display: inline-block;
+  padding-left: 3.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.container .header-container ul li a {
+  text-decoration: none;
+  color: black;
+  opacity: 30%;
+  transition: 0.5s ease;
+}
+.container .header-container ul li a:hover {
+  opacity: 100%;
+}
+
+.container {
+  position: relative;
+}
+.container .blurb {
+  width: 50vw;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.container .blurb h1 {
+  font-size: 5rem;
+}
+.container .project-container {
+  position: relative;
+  width: 80vw;
+  height: 100%;
+  margin-top: 3rem;
+}
+.container .project-container h2 {
+  position: absolute;
+  font-weight: 600;
+  font-size: 1rem;
+  bottom: 3rem;
+  right: 4rem;
+  color: white;
+}
+.container .project-container h2 p {
+  color: white;
+  display: inline-block;
+  padding-left: 2rem;
+  opacity: 50%;
+  font-weight: 400;
+}
+.container .project-container img {
+  width: 100%;
+  border-radius: 20px;
+  transition: 1s;
+}
+.container .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 99.5%;
+  width: 100%;
+  border-radius: 20px;
+  background-color: black;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+.container .project-container:hover .overlay {
+  opacity: 70%;
+}
+
+footer .container .footer-container {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .footer-container p {
+  font-weight: 600;
+  margin: 0;
+}
+footer .container .footer-container ul {
+  list-style-type: none;
+  margin: 0;
+}
+footer .container .footer-container ul li {
+  display: inline-block;
+  padding-left: 2rem;
+}
+footer .container .footer-container ul li a {
+  opacity: 20%;
+  transition: 0.5s ease;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+footer .container .footer-container ul li a:hover {
+  opacity: 100%;
+}
