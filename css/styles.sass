@@ -14,7 +14,8 @@ html
 @media screen and ( max-width: 768px )
     .container
         width: 90vw
-    
+
+// HOMEPAGE BLURB CONTAINER
 
 .container
     position: relative
@@ -73,12 +74,100 @@ html
             h1
                 font-size: 2rem
 
+    @media screen and ( max-width: 1200px )
+        .blurb
+            width: 80vw
+
     @media screen and ( max-width: 768px )
         .blurb 
             width: 80vw
             padding-top: 2rem
             padding-bottom: 2rem
-                    
+
+    // ABOUT BLURB CONTAINER
+
+    .about-blurb
+        width: 50vw
+        padding-top: 10rem
+        padding-bottom: 10rem
+        
+        h1
+            font-size: 5rem      
+
+            mark
+                background-color: #3297FD
+                color: white
+            
+            .blinking-cursor   
+                -webkit-animation: 1s blink step-end infinite
+                -moz-animation: 1s blink step-end infinite
+                -ms-animation: 1s blink step-end infinite
+                -o-animation: 1s blink step-end infinite
+                animation: 1s blink step-end infinite
+
+            @-webkit-keyframes "blink"
+                from, to
+                    color: transparent
+                50%
+                    color: black
+            
+            @-moz-keyframes "blink"
+                from, to
+                    color: transparent
+                50%
+                    color: black
+
+            @-ms-keyframes "blink"
+                from, to
+                    color: transparent
+                50%
+                    color: black
+
+            @-o-keyframes "blink"
+                from, to
+                    color: transparent
+                50%
+                    color: black
+
+            @keyframes "blink"
+                from, to
+                    color: transparent
+                50%
+                    color: black
+
+        @media screen and ( max-width: 768px )
+            h1
+                font-size: 2rem
+                padding-bottom: 2rem
+
+        h2 
+            font-weight: 600
+            line-height: 2.5rem
+            font-size: 1.5rem
+        
+        @media screen and ( max-width: 768px )
+            h2 
+                font-size: 1.1rem
+                line-height: 2rem
+
+    @media screen and ( max-width: 1200px )
+        .about-blurb 
+            width: 80vw
+            padding-top: 2rem
+            padding-bottom: 0rem
+
+    @media screen and ( max-width: 768px )
+        .about-blurb
+            width: 90vw
+
+    .about-image
+        padding-top: 3rem
+
+        img
+            width: 100%
+            border-radius: 20px
+
+    // PROJECT CONTAINER         
 
     .project-container
         position: relative
@@ -121,6 +210,13 @@ html
                 border-radius: 10px
                 transition: none
 
+    @media screen and ( max-width: 768px )
+        .project-container
+            margin-top: 0.5rem
+            width: 90vw
+
+    // PROJECT CONTAINER HOVER OVERLAY
+
     .overlay
         position: absolute
         top: 0
@@ -140,11 +236,6 @@ html
 
     .project-container:hover .overlay
         opacity: 70%
-
-    @media screen and ( max-width: 768px )
-        .project-container
-            margin-top: 0.5rem
-            width: 90vw
 
 
               

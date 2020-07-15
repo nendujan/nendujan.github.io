@@ -26,11 +26,26 @@ header .container .nav-container .nav-bar {
   align-content: center;
   font-size: 1rem;
   font-weight: 600;
+}
+header .container .nav-container .nav-bar a {
+  transition: 0.3s;
   opacity: 30%;
+  padding: 5px;
+  border-radius: 5px;
+}
+header .container .nav-container .nav-bar a:hover {
+  color: white;
+  opacity: 100%;
+  background-color: #3297FD;
+  padding: 5px;
+  border-radius: 5px;
 }
 @media screen and (max-width: 768px) {
   header .container .nav-container .nav-bar {
     grid-gap: 0.5rem;
+  }
+  header .container .nav-container .logo {
+    font-size: 1.25rem;
   }
 }
 @media screen and (max-width: 768px) {

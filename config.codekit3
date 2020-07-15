@@ -17,6 +17,14 @@
 		"oAP": "/.gitattributes",
 		"oF": 0
 		},
+	"/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/about.html",
+		"oF": 0
+		},
 	"/css/footer.css": {
 		"aP": 1,
 		"bl": 0,
@@ -106,14 +114,6 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/header-test.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/header-test.html",
-		"oF": 0
-		},
 	"/images/1.png": {
 		"ft": 32768,
 		"iS": 6530336,
@@ -175,6 +175,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/index.html",
+		"oF": 0
+		},
+	"/test-code.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/test-code.html",
 		"oF": 0
 		}
 	},
